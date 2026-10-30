@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 150" role="img" aria-label="Casa Solar">
+  <defs>
+    <clipPath id="cs-sky"><rect x="0" y="0" width="220" height="60"/></clipPath>
+  </defs>
+  <!-- sol -->
+  <g clip-path="url(#cs-sky)">
+    <polygon fill="#F5C844" points="110,6 116,17 127,9 129,22 142,19 139,32 152,34 145,45 156,52 64,52 75,45 68,34 81,32 78,19 91,22 93,9 104,17"/>
+    <circle cx="110" cy="52" r="24" fill="#F7D24A"/>
+    <path d="M88 52a22 22 0 0 1 44 0" fill="none" stroke="#fff" stroke-width="2.6"/>
+  </g>
+  <!-- painéis -->
+  <g fill="var(--logo-panel, #262A5E)">
+    <polygon points="72,46 104,46 82,80 44,80"/>
+    <polygon points="116,46 148,46 176,80 138,80"/>
+  </g>
+  <g stroke="var(--logo-grid, #fff)" stroke-width="1.6" fill="none">
+    <path d="M66 54.5h34M60 63h35M53 71.5h36"/>
+    <path d="M84 46l-16 34M95 46l-15 34"/>
+    <path d="M120 54.5h34M125 63h35M131 71.5h36"/>
+    <path d="M136 46l16 34M125 46l15 34"/>
+  </g>
+  <!-- casa -->
+  <polygon points="110,30 140,80 80,80" fill="#fff"/>
+  <polygon points="110,38.5 133.5,78 86.5,78" fill="#3FA45B"/>
+  <g fill="#fff"><rect x="104" y="58" width="5.4" height="5.4"/><rect x="110.6" y="58" width="5.4" height="5.4"/><rect x="104" y="64.6" width="5.4" height="5.4"/><rect x="110.6" y="64.6" width="5.4" height="5.4"/></g>
+  <!-- nome -->
+  <text x="110" y="110" text-anchor="middle" font-family="Poppins, Montserrat, Arial, sans-serif" font-weight="700" font-size="25" letter-spacing="0.5" fill="var(--logo-ink, #262A5E)">CASA SOLAR</text>
+  <!-- ondas -->
+  <path d="M38 132c26-12 60-12 92-4s46 2 56-10c-8 18-30 26-62 20s-58-14-86-6z" fill="var(--logo-ink, #262A5E)"/>
+  <path d="M120 140c28 6 52 2 64-18-4 18-30 28-64 18z" fill="#F5C844"/>
+</svg>
